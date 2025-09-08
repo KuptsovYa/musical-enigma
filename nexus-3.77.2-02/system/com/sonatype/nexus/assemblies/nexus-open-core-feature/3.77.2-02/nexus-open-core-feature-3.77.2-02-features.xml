@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="nexus-open-core-feature">
+    <feature name="nexus-open-core-feature" description="com.sonatype.nexus.assemblies:nexus-open-core-feature" version="3.77.2.02">
+        <details>com.sonatype.nexus.assemblies:nexus-open-core-feature</details>
+        <feature prerequisite="true">nexus-core-feature</feature>
+        <feature version="3.77.2.02">nexus-ldap-plugin</feature>
+        <feature version="3.77.2.02">nexus-proui-plugin</feature>
+        <feature version="3.77.2.02">nexus-proximanova-plugin</feature>
+        <feature version="3.77.2.02">nexus-licensing-plugin</feature>
+        <feature version="3.77.2.02">nexus-migration-plugin</feature>
+        <feature version="3.77.2.02">nexus-outreach-plugin</feature>
+        <feature version="3.77.2.02">nexus-rutauth-plugin</feature>
+        <feature version="3.77.2.02">nexus-clm-oss-plugin</feature>
+        <feature version="3.77.2.02">nexus-repository-nuget</feature>
+        <feature version="3.77.2.02">nexus-repository-docker</feature>
+        <feature version="3.77.2.02">nexus-repository-yum</feature>
+        <feature version="3.77.2.02">nexus-blobstore-azure-cloud</feature>
+        <feature version="3.77.2.02">nexus-ahc-plugin</feature>
+        <feature version="3.77.2.02">nexus-repository-npm</feature>
+        <feature version="3.77.2.02">nexus-repository-helm</feature>
+        <feature version="3.77.2.02">nexus-repository-gitlfs</feature>
+        <feature version="3.77.2.02">nexus-repository-pypi</feature>
+        <feature version="3.77.2.02">nexus-analytics-plugin</feature>
+        <feature version="3.77.2.02">nexus-repository-conda</feature>
+        <feature version="3.77.2.02">nexus-repository-conan</feature>
+        <feature version="3.77.2.02">nexus-repository-r</feature>
+        <feature version="3.77.2.02">nexus-repository-cocoapods</feature>
+        <feature version="3.77.2.02">nexus-repository-rubygems</feature>
+        <feature version="3.77.2.02">nexus-repository-golang</feature>
+        <feature version="3.77.2.02">nexus-repository-p2</feature>
+        <feature version="3.77.2.02">nexus-vulnerability-plugin</feature>
+        <feature version="3.77.2.02">nexus-malicious-risk-plugin</feature>
+        <feature version="3.77.2.02" prerequisite="false" dependency="false">nexus-firewall-common</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus/nexus-licensing-extension/3.77.2-02</bundle>
+        <bundle>wrap:mvn:com.sonatype.licensing/license-bundle/1.6.0</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:javax.enterprise/cdi-api/1.2</bundle>
+        <bundle>mvn:javax.el/javax.el-api/3.0.0</bundle>
+        <bundle>mvn:javax.interceptor/javax.interceptor-api/1.2</bundle>
+        <bundle>mvn:org.eclipse.sisu/org.eclipse.sisu.inject/0.9.0.M3</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xpp3/1.1.4c_7</bundle>
+    </feature>
+    <feature name="nexus-ldap-plugin" description="com.sonatype.nexus.plugins:nexus-ldap-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-ldap-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-ldap-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-licensing-plugin" description="com.sonatype.nexus.plugins:nexus-licensing-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-licensing-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-licensing-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-proui-plugin" description="com.sonatype.nexus.plugins:nexus-proui-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-proui-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-proui-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-proximanova-plugin" description="com.sonatype.nexus.plugins:nexus-proximanova-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-proximanova-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-proximanova-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-ahc-plugin" description="com.sonatype.nexus.plugins:nexus-ahc-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-ahc-plugin</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-ahc-plugin/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-healthcheck-base/3.77.2-02</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-manifest-model/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-hashing-asm71/1.20.0-01</bundle>
+        <bundle>mvn:com.thoughtworks.xstream/xstream/1.4.21</bundle>
+        <bundle>wrap:mvn:org.cyclonedx/cyclonedx-core-java/7.3.2</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.14.2</bundle>
+        <bundle>mvn:com.networknt/json-schema-validator/1.0.77</bundle>
+        <bundle>wrap:mvn:com.ethlo.time/itu/1.7.0</bundle>
+        <bundle>wrap:mvn:org.spdx/java-spdx-library/1.1.7</bundle>
+        <bundle>wrap:mvn:org.spdx/spdx-jackson-store/1.1.7</bundle>
+        <bundle>mvn:org.json/json/20231013</bundle>
+        <bundle>wrap:mvn:com.github.package-url/packageurl-java/1.4.1</bundle>
+        <bundle>wrap:mvn:org.tomlj/tomlj/1.0.0</bundle>
+        <bundle>mvn:org.antlr/antlr4-runtime/4.7.2</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.0</bundle>
+        <bundle>mvn:org.yaml/snakeyaml/2.3</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>wrap:mvn:com.neuvector/scanner/1.10</bundle>
+        <bundle>wrap:mvn:org.semver4j/semver4j/4.2.1</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model-io/2.36.66-01</bundle>
+        <bundle>wrap:mvn:xpp3/xpp3_min/1.1.4c</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xpp3/1.1.4c_7</bundle>
+        <bundle>mvn:com.google.code.gson/gson/2.9.0</bundle>
+    </feature>
+    <feature name="nexus-clm-oss-plugin" description="com.sonatype.nexus.plugins:nexus-clm-oss-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-clm-oss-plugin</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>wrap:mvn:com.sonatype.insight.brain/insight-rm-common/1.170.0-01$Bundle-SymbolicName=insight-rm-common&amp;Fragment-Host=com.sonatype.clm.dto.model</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-clm-oss-plugin/3.77.2-02</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-healthcheck-base/3.77.2-02</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xpp3/1.1.4c_7</bundle>
+        <bundle>mvn:com.sonatype.clm/com.sonatype.clm.dto.model/1.58.21-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-core/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model-io/2.36.66-01</bundle>
+        <bundle>mvn:com.thoughtworks.xstream/xstream/1.4.21</bundle>
+        <bundle>wrap:mvn:xpp3/xpp3_min/1.1.4c</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-upgrade/3.77.2-02</bundle>
+        <bundle>wrap:mvn:org.codehaus.plexus/plexus-utils/3.5.1</bundle>
+        <bundle>mvn:org.flywaydb/flyway-core/8.5.13</bundle>
+    </feature>
+    <feature name="nexus-migration-plugin" description="com.sonatype.nexus.plugins:nexus-migration-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-migration-plugin</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>wrap:mvn:com.sonatype.insight.brain/insight-rm-common/1.170.0-01$Bundle-SymbolicName=insight-rm-common&amp;Fragment-Host=com.sonatype.clm.dto.model</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-migration-plugin/3.77.2-02</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-healthcheck-base/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+        <bundle>mvn:com.sonatype.clm/com.sonatype.clm.dto.model/1.58.21-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-core/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model-io/2.36.66-01</bundle>
+        <bundle>mvn:com.thoughtworks.xstream/xstream/1.4.21</bundle>
+        <bundle>wrap:mvn:xpp3/xpp3_min/1.1.4c</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-rest-client/3.77.2-02</bundle>
+        <bundle>mvn:org.jboss.spec.javax.ws.rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.jboss.spec.javax.xml.bind/jboss-jaxb-api_2.3_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.reactivestreams/reactive-streams/1.0.3</bundle>
+        <bundle>wrap:mvn:com.github.stephenc.jcip/jcip-annotations/1.0-1</bundle>
+        <bundle>mvn:com.sun.mail/jakarta.mail/1.6.5</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-dom/0.8.9</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-core/0.8.10</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-storage/0.8.9</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.17.0</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+    </feature>
+    <feature name="nexus-outreach-plugin" description="com.sonatype.nexus.plugins:nexus-outreach-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-outreach-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-outreach-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-rutauth-plugin" description="com.sonatype.nexus.plugins:nexus-rutauth-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-rutauth-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-rutauth-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-analytics-plugin" description="com.sonatype.nexus.plugins:nexus-analytics-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-analytics-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-analytics-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-repository-nuget" description="com.sonatype.nexus.plugins:nexus-repository-nuget" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-nuget</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-nuget/3.77.2-02</bundle>
+        <bundle>wrap:mvn:org.sonatype.sisu/sisu-odata4j/0.0.7</bundle>
+        <bundle>mvn:org.core4j/core4j/0.5</bundle>
+        <bundle>mvn:joda-time/joda-time/2.10.14</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>wrap:mvn:org.codehaus.plexus/plexus-utils/3.5.1</bundle>
+        <bundle>mvn:commons-fileupload/commons-fileupload/1.5</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-util/1.1.0</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-api/1.1.0</bundle>
+        <bundle>wrap:mvn:com.github.zafarkhaja/java-semver/0.9.0</bundle>
+        <bundle>mvn:com.google.guava/guava/32.1.2-jre</bundle>
+        <bundle>mvn:com.google.guava/failureaccess/1.0.1</bundle>
+    </feature>
+    <feature name="nexus-repository-docker" description="com.sonatype.nexus.plugins:nexus-repository-docker" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-docker</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-docker/3.77.2-02</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-util/1.1.0</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-api/1.1.0</bundle>
+    </feature>
+    <feature name="nexus-repository-yum" description="com.sonatype.nexus.plugins:nexus-repository-yum" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-yum</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-yum/3.77.2-02</bundle>
+        <bundle>wrap:mvn:org.redline-rpm/redline/1.2.5</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:org.tukaani/xz/1.10</bundle>
+        <bundle>wrap:mvn:org.jdom/jdom2/2.0.6.1</bundle>
+    </feature>
+    <feature name="nexus-blobstore-azure-cloud" description="com.sonatype.nexus.plugins:nexus-blobstore-azure-cloud" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-blobstore-azure-cloud</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-blobstore-azure-cloud/3.77.2-02</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+    </feature>
+    <feature name="nexus-repository-npm" description="com.sonatype.nexus.plugins:nexus-repository-npm" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-npm</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-npm/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-firewall-common/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-config/3.77.2-02</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-healthcheck-base/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xpp3/1.1.4c_7</bundle>
+        <bundle>mvn:com.sonatype.clm/com.sonatype.clm.dto.model/1.58.21-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-core/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model-io/2.36.66-01</bundle>
+        <bundle>mvn:com.thoughtworks.xstream/xstream/1.4.21</bundle>
+        <bundle>wrap:mvn:xpp3/xpp3_min/1.1.4c</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.brain/insight-rm-common/1.170.0-01</bundle>
+    </feature>
+    <feature name="nexus-repository-helm" description="com.sonatype.nexus.plugins:nexus-repository-helm" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-helm</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-helm/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus.plugins/nexus-repository-httpbridge/3.77.2-02</bundle>
+        <bundle>mvn:commons-fileupload/commons-fileupload/1.5</bundle>
+    </feature>
+    <feature name="nexus-repository-pypi" description="com.sonatype.nexus.plugins:nexus-repository-pypi" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-pypi</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-pypi/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+        <bundle>mvn:org.tukaani/xz/1.10</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-firewall-common/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-config/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-services/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-view/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-elasticsearch/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus.bundles/org.sonatype.nexus.bundles.elasticsearch/3.77.2-02</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.0</bundle>
+        <bundle>mvn:org.yaml/snakeyaml/2.3</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-toml/2.17.0</bundle>
+        <bundle>mvn:org.hdrhistogram/HdrHistogram/2.2.1</bundle>
+        <bundle>wrap:mvn:com.vividsolutions/jts/1.13</bundle>
+        <bundle>mvn:com.ning/compress-lzf/1.1.2</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-selector/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-jexl3/3.1</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-webhooks/3.77.2-02</bundle>
+        <bundle>mvn:org.jboss.spec.javax.ws.rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.jboss.spec.javax.xml.bind/jboss-jaxb-api_2.3_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.reactivestreams/reactive-streams/1.0.3</bundle>
+        <bundle>wrap:mvn:com.github.stephenc.jcip/jcip-annotations/1.0-1</bundle>
+        <bundle>mvn:com.sun.mail/jakarta.mail/1.6.5</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-dom/0.8.9</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-core/0.8.10</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-storage/0.8.9</bundle>
+        <bundle>wrap:mvn:org.sonatype.goodies/package-url-java/1.1.1</bundle>
+    </feature>
+    <feature name="nexus-repository-conda" description="com.sonatype.nexus.plugins:nexus-repository-conda" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-conda</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-conda/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+    </feature>
+    <feature name="nexus-repository-gitlfs" description="com.sonatype.nexus.plugins:nexus-repository-gitlfs" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-gitlfs</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-gitlfs/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-repository-conan" description="com.sonatype.nexus.plugins:nexus-repository-conan" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-conan</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-conan/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-repository-r" description="com.sonatype.nexus.plugins:nexus-repository-r" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-r</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-r/3.77.2-02</bundle>
+        <bundle>wrap:mvn:se.sawano.java/alphanumeric-comparator/1.4.1</bundle>
+    </feature>
+    <feature name="nexus-repository-rubygems" description="com.sonatype.nexus.plugins:nexus-repository-rubygems" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-rubygems</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-rubygems/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+        <bundle>mvn:org.snakeyaml/snakeyaml-engine/2.6</bundle>
+    </feature>
+    <feature name="nexus-repository-golang" description="com.sonatype.nexus.plugins:nexus-repository-golang" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-golang</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-golang/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+    </feature>
+    <feature name="nexus-repository-cocoapods" description="com.sonatype.nexus.plugins:nexus-repository-cocoapods" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-cocoapods</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-cocoapods/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-repository-p2" description="com.sonatype.nexus.plugins:nexus-repository-p2" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-repository-p2</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-repository-p2/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-compress/1.26.1</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+        <bundle>mvn:org.tukaani/xz/1.10</bundle>
+    </feature>
+    <feature name="nexus-vulnerability-plugin" description="com.sonatype.nexus.plugins:nexus-vulnerability-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-vulnerability-plugin</details>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-vulnerability-plugin/3.77.2-02</bundle>
+    </feature>
+    <feature name="nexus-malicious-risk-plugin" description="com.sonatype.nexus.plugins:nexus-malicious-risk-plugin" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-malicious-risk-plugin</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-malicious-risk-plugin/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-config/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-common/3.77.2-02</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-util/1.1.0</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-api/1.1.0</bundle>
+        <bundle>mvn:com.google.errorprone/error_prone_annotations/2.21.1</bundle>
+        <bundle>mvn:com.google.guava/guava/32.1.2-jre</bundle>
+        <bundle>mvn:com.google.guava/failureaccess/1.0.1</bundle>
+        <bundle>mvn:org.eclipse.sisu/org.eclipse.sisu.inject/0.9.0.M3</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-inject/1_2</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/1.0_6</bundle>
+        <bundle>mvn:com.google.inject/guice/6.0.0</bundle>
+        <bundle>mvn:jakarta.inject/jakarta.inject-api/2.0.1</bundle>
+        <bundle>mvn:com.google.inject.extensions/guice-assistedinject/6.0.0</bundle>
+        <bundle>mvn:javax.enterprise/cdi-api/1.2</bundle>
+        <bundle>mvn:javax.el/javax.el-api/3.0.0</bundle>
+        <bundle>mvn:javax.interceptor/javax.interceptor-api/1.2</bundle>
+        <bundle>wrap:mvn:org.codehaus.mojo/animal-sniffer-annotations/1.21</bundle>
+        <bundle>mvn:org.sonatype.goodies/goodies-common/2.3.8</bundle>
+        <bundle>wrap:mvn:org.sonatype.gossip/gossip-support/1.8</bundle>
+        <bundle>wrap:mvn:org.sonatype.gossip/gossip-bootstrap/1.8</bundle>
+        <bundle>mvn:org.sonatype.goodies/goodies-lifecycle/2.3.8</bundle>
+        <bundle>mvn:joda-time/joda-time/2.10.14</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-astbuilder/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-datetime/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-jmx/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-json/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-jsr223/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-macro/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-nio/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-sql/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-templates/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-xml/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-cli-commons/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-dateutil/3.0.19</bundle>
+        <bundle>mvn:commons-cli/commons-cli/1.7.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.datatype/jackson-datatype-joda/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.module/jackson-module-parameter-names/2.17.0</bundle>
+        <bundle>mvn:org.apache.commons/commons-text/1.12.0</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-task-logging/3.77.2-02</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-blobstore/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-rest/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-blobstore-file/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+        <bundle>wrap:mvn:com.squareup/tape/1.2.3</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-datastore/3.77.2-02</bundle>
+        <bundle>mvn:org.codehaus.plexus/plexus-interpolation/1.27</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-supportzip-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-distributed-event-service-api/3.77.2-02</bundle>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-healthcheck-base/3.77.2-02</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xpp3/1.1.4c_7</bundle>
+        <bundle>mvn:com.sonatype.clm/com.sonatype.clm.dto.model/1.58.21-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-core/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model/2.36.66-01</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.scan/insight-scanner-model-io/2.36.66-01</bundle>
+        <bundle>mvn:com.thoughtworks.xstream/xstream/1.4.21</bundle>
+        <bundle>wrap:mvn:xpp3/xpp3_min/1.1.4c</bundle>
+        <bundle>wrap:mvn:com.sonatype.insight.brain/insight-rm-common/1.170.0-01</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-upgrade/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-audit/3.77.2-02</bundle>
+        <bundle>wrap:mvn:org.codehaus.plexus/plexus-utils/3.5.1</bundle>
+        <bundle>mvn:org.flywaydb/flyway-core/8.5.13</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-content/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-core/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-bootstrap/3.77.2-02</bundle>
+        <bundle>wrap:mvn:uk.org.lidalia/sysout-over-slf4j/1.0.2</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-base/3.77.2-02</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-httpclient/4.1.0</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-servlets/4.1.0</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-json/4.1.0</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-jvm/4.1.0</bundle>
+        <bundle>wrap:mvn:com.papertrail/profiler/1.0.2</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-servlet/4.1.0</bundle>
+        <bundle>mvn:io.prometheus/simpleclient/0.6.0</bundle>
+        <bundle>mvn:io.prometheus/simpleclient_servlet/0.6.0</bundle>
+        <bundle>mvn:io.prometheus/simpleclient_common/0.6.0</bundle>
+        <bundle>mvn:org.apache.velocity/velocity-engine-core/2.3</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-script/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-selector/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-jexl3/3.1</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-ssl/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-webhooks/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-blobstore-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-datastore-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-services/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-view/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-jmx/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-elasticsearch/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus.bundles/org.sonatype.nexus.bundles.elasticsearch/3.77.2-02</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.0</bundle>
+        <bundle>mvn:org.yaml/snakeyaml/2.3</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-toml/2.17.0</bundle>
+        <bundle>mvn:org.hdrhistogram/HdrHistogram/2.2.1</bundle>
+        <bundle>wrap:mvn:com.vividsolutions/jts/1.13</bundle>
+        <bundle>mvn:com.ning/compress-lzf/1.1.2</bundle>
+        <bundle>mvn:org.jboss.spec.javax.ws.rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.jboss.spec.javax.xml.bind/jboss-jaxb-api_2.3_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.reactivestreams/reactive-streams/1.0.3</bundle>
+        <bundle>wrap:mvn:com.github.stephenc.jcip/jcip-annotations/1.0-1</bundle>
+        <bundle>mvn:com.sun.mail/jakarta.mail/1.6.5</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-dom/0.8.9</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-core/0.8.10</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-storage/0.8.9</bundle>
+        <bundle>mvn:commons-fileupload/commons-fileupload/1.5</bundle>
+        <bundle>wrap:mvn:org.sonatype.goodies/package-url-java/1.1.1</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-transaction/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-csv/1.10.0</bundle>
+    </feature>
+    <feature name="nexus-firewall-common" description="com.sonatype.nexus.plugins:nexus-firewall-common" version="3.77.2.02">
+        <details>com.sonatype.nexus.plugins:nexus-firewall-common</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.sonatype.nexus.plugins/nexus-firewall-common/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-config/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-collections4/4.4</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-common/3.77.2-02</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-util/1.1.0</bundle>
+        <bundle>mvn:org.eclipse.aether/aether-api/1.1.0</bundle>
+        <bundle>mvn:com.google.errorprone/error_prone_annotations/2.21.1</bundle>
+        <bundle>mvn:com.google.guava/guava/32.1.2-jre</bundle>
+        <bundle>mvn:com.google.guava/failureaccess/1.0.1</bundle>
+        <bundle>mvn:org.eclipse.sisu/org.eclipse.sisu.inject/0.9.0.M3</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-inject/1_2</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/1.0_6</bundle>
+        <bundle>mvn:com.google.inject/guice/6.0.0</bundle>
+        <bundle>mvn:jakarta.inject/jakarta.inject-api/2.0.1</bundle>
+        <bundle>mvn:com.google.inject.extensions/guice-assistedinject/6.0.0</bundle>
+        <bundle>mvn:javax.enterprise/cdi-api/1.2</bundle>
+        <bundle>mvn:javax.el/javax.el-api/3.0.0</bundle>
+        <bundle>mvn:javax.interceptor/javax.interceptor-api/1.2</bundle>
+        <bundle>wrap:mvn:org.codehaus.mojo/animal-sniffer-annotations/1.21</bundle>
+        <bundle>mvn:org.sonatype.goodies/goodies-common/2.3.8</bundle>
+        <bundle>wrap:mvn:org.sonatype.gossip/gossip-support/1.8</bundle>
+        <bundle>wrap:mvn:org.sonatype.gossip/gossip-bootstrap/1.8</bundle>
+        <bundle>mvn:org.sonatype.goodies/goodies-lifecycle/2.3.8</bundle>
+        <bundle>mvn:joda-time/joda-time/2.10.14</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-astbuilder/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-datetime/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-jmx/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-json/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-jsr223/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-macro/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-nio/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-sql/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-templates/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-xml/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-cli-commons/3.0.19</bundle>
+        <bundle>mvn:org.codehaus.groovy/groovy-dateutil/3.0.19</bundle>
+        <bundle>mvn:commons-cli/commons-cli/1.7.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.datatype/jackson-datatype-joda/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.module/jackson-module-parameter-names/2.17.0</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+        <bundle>mvn:org.apache.commons/commons-text/1.12.0</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-task-logging/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-blobstore/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-thread/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-rest/3.77.2-02</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-core/4.1.0</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-blobstore-file/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.13.0</bundle>
+        <bundle>wrap:mvn:com.squareup/tape/1.2.3</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-upgrade/3.77.2-02</bundle>
+        <bundle>wrap:mvn:org.codehaus.plexus/plexus-utils/3.5.1</bundle>
+        <bundle>mvn:org.flywaydb/flyway-core/8.5.13</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-datastore/3.77.2-02</bundle>
+        <bundle>mvn:org.codehaus.plexus/plexus-interpolation/1.27</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-supportzip-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-distributed-event-service-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-capability/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-formfields/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-validation/3.77.2-02</bundle>
+        <bundle>mvn:org.hibernate.validator/hibernate-validator/6.2.0.Final</bundle>
+        <bundle>mvn:com.fasterxml/classmate/1.5.1</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-crypto/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.goodies/goodies-i18n/2.3.8</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-services/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-repository-view/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-audit/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-jmx/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-mime/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.tika/tika-core/1.28.4</bundle>
+        <bundle>mvn:jakarta.activation/jakarta.activation-api/1.2.2</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/2.17.0</bundle>
+        <bundle>mvn:net.bytebuddy/byte-buddy/1.14.9</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-blobstore-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-datastore-api/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-httpclient/3.77.2-02</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.16.0</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-security/3.77.2-02</bundle>
+        <bundle>wrap:mvn:com.auth0/java-jwt/3.16.0</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-cache/3.77.2-02</bundle>
+        <bundle>mvn:javax.cache/cache-api/1.1.1</bundle>
+        <bundle>mvn:org.ehcache/ehcache/3.9.3</bundle>
+        <bundle>mvn:org.apache.shiro/shiro-core/1.13.0</bundle>
+        <bundle>mvn:org.apache.shiro/shiro-web/1.13.0</bundle>
+        <bundle>mvn:org.owasp.encoder/encoder/1.2.3</bundle>
+        <bundle>mvn:commons-beanutils/commons-beanutils/1.9.4</bundle>
+        <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+        <bundle>mvn:com.google.inject.extensions/guice-servlet/6.0.0</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-elasticsearch/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus.bundles/org.sonatype.nexus.bundles.elasticsearch/3.77.2-02</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.17.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.0</bundle>
+        <bundle>mvn:org.yaml/snakeyaml/2.3</bundle>
+        <bundle>mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-toml/2.17.0</bundle>
+        <bundle>mvn:org.hdrhistogram/HdrHistogram/2.2.1</bundle>
+        <bundle>wrap:mvn:com.vividsolutions/jts/1.13</bundle>
+        <bundle>mvn:com.ning/compress-lzf/1.1.2</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-transaction/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-scheduling/3.77.2-02</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-selector/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.commons/commons-jexl3/3.1</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-commands/3.77.2-02</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.3.9</bundle>
+        <bundle>mvn:org.jline/jline/3.21.0</bundle>
+        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.boot/4.3.9</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.3.9</bundle>
+        <bundle>mvn:org.apache.felix/org.apache.felix.gogo.runtime/1.1.6</bundle>
+        <bundle>mvn:org.sonatype.nexus/nexus-webhooks/3.77.2-02</bundle>
+        <bundle>mvn:io.swagger/swagger-annotations/1.6.11</bundle>
+        <bundle>mvn:org.jboss.spec.javax.ws.rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.jboss.spec.javax.xml.bind/jboss-jaxb-api_2.3_spec/2.0.1.Final</bundle>
+        <bundle>mvn:org.reactivestreams/reactive-streams/1.0.3</bundle>
+        <bundle>wrap:mvn:com.github.stephenc.jcip/jcip-annotations/1.0-1</bundle>
+        <bundle>mvn:com.sun.mail/jakarta.mail/1.6.5</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-dom/0.8.9</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-core/0.8.10</bundle>
+        <bundle>mvn:org.apache.james/apache-mime4j-storage/0.8.9</bundle>
+        <bundle>mvn:commons-fileupload/commons-fileupload/1.5</bundle>
+        <bundle>mvn:commons-io/commons-io/2.15.1</bundle>
+        <bundle>mvn:io.dropwizard.metrics/metrics-healthchecks/4.1.0</bundle>
+        <bundle>wrap:mvn:org.sonatype.goodies/package-url-java/1.1.1</bundle>
+    </feature>
+</features>

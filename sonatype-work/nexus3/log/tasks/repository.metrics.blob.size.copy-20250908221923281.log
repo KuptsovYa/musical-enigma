@@ -1,0 +1,6 @@
+2025-09-08 22:19:23,281+0400 INFO  [quartz-12-thread-6]  *SYSTEM com.sonatype.nexus.repository.content.tasks.CopyBlobSizeTask - Task information:
+2025-09-08 22:19:23,283+0400 INFO  [quartz-12-thread-6]  *SYSTEM com.sonatype.nexus.repository.content.tasks.CopyBlobSizeTask -  ID: 36047a3b-b5a0-42a9-804a-263fd18b5b12
+2025-09-08 22:19:23,283+0400 INFO  [quartz-12-thread-6]  *SYSTEM com.sonatype.nexus.repository.content.tasks.CopyBlobSizeTask -  Type: repository.metrics.blob.size.copy
+2025-09-08 22:19:23,283+0400 INFO  [quartz-12-thread-6]  *SYSTEM com.sonatype.nexus.repository.content.tasks.CopyBlobSizeTask -  Name: Repository - Copy Blob Size to Asset Table
+2025-09-08 22:19:23,284+0400 INFO  [quartz-12-thread-6]  *SYSTEM com.sonatype.nexus.repository.content.tasks.CopyBlobSizeTask -  Description: populate asset_blob_size column on {format}_asset table
+2025-09-08 22:19:23,284+0400 INFO  [quartz-12-thread-6]  *SYSTEM com.sonatype.nexus.repository.content.tasks.CopyBlobSizeTask - Task complete

@@ -1,0 +1,1 @@
+wrap:file:system/org/keycloak/keycloak-adapter-spi/18.0.2/keycloak-adapter-spi-18.0.2.jar$overwrite=merge&Import-Package=org.jboss.logging,*

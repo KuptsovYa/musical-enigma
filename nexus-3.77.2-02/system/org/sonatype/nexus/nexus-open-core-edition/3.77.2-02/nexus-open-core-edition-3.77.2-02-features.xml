@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="nexus-open-core-edition">
+    <feature name="nexus-open-core-edition" description="org.sonatype.nexus:nexus-open-core-edition" version="3.77.2.02">
+        <details>org.sonatype.nexus:nexus-open-core-edition</details>
+        <feature>nexus-base-feature</feature>
+        <bundle>mvn:org.sonatype.nexus/nexus-open-core-edition/3.77.2-02</bundle>
+    </feature>
+</features>

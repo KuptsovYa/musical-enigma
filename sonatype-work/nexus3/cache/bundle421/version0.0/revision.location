@@ -1,0 +1,1 @@
+wrap:file:system/com/google/protobuf/protobuf-java-util/3.25.3/protobuf-java-util-3.25.3.jar$overwrite=merge&Import-Package=com.google.common.*,*

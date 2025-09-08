@@ -1,0 +1,2 @@
+osgi.wiring.host; (&(osgi.wiring.host=org.keycloak.keycloak-servlet-filter-adapter)(bundle-version>=0.0.0))
+394
