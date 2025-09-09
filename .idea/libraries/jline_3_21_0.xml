@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jline-3.21.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/jline/jline/3.21.0/jline-3.21.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

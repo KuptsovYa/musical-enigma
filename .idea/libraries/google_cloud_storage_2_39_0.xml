@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-cloud-storage-2.39.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/cloud/google-cloud-storage/2.39.0/google-cloud-storage-2.39.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

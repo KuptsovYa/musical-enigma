@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snakeyaml-engine-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

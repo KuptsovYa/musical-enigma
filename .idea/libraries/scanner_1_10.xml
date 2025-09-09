@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scanner-1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/neuvector/scanner/1.10/scanner-1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

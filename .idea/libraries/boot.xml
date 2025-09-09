@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="boot">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/nexus-main.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/jaxb-runtime-2.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/txw2-2.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/org.apache.karaf.specs.activator-4.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/org.apache.karaf.diagnostic.boot-4.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/osgi.core-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/istack-commons-runtime-3.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/jakarta.xml.bind-api-2.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/org.apache.karaf.jaas.boot-4.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/boot/org.apache.karaf.main-4.3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

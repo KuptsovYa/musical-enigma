@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xmlsec-2.3.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/santuario/xmlsec/2.3.4/xmlsec-2.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

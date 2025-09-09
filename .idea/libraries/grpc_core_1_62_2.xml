@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="grpc-core-1.62.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/io/grpc/grpc-core/1.62.2/grpc-core-1.62.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

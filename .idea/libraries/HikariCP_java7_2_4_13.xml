@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HikariCP-java7-2.4.13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/zaxxer/HikariCP-java7/2.4.13/HikariCP-java7-2.4.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

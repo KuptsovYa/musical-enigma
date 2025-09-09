@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.servicemix.specs.stax-api-1.2-2.9.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle390/version0.0/nexus-blobstore-azure-cloud-3.77.2-02.jar-embedded/org.apache.servicemix.specs.stax-api-1.2-2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

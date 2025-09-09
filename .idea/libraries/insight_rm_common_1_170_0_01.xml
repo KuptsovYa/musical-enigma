@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="insight-rm-common-1.170.0-01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/sonatype/insight/brain/insight-rm-common/1.170.0-01/insight-rm-common-1.170.0-01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

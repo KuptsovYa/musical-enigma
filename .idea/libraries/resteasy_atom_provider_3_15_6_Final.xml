@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resteasy-atom-provider-3.15.6.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/jboss/resteasy/resteasy-atom-provider/3.15.6.Final/resteasy-atom-provider-3.15.6.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

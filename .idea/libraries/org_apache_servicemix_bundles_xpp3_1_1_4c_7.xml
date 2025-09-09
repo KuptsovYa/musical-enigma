@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.servicemix.bundles.xpp3-1.1.4c_7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/servicemix/bundles/org.apache.servicemix.bundles.xpp3/1.1.4c_7/org.apache.servicemix.bundles.xpp3-1.1.4c_7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

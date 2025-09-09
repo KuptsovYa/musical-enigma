@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-api-client-2.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/api-client/google-api-client/2.4.0/google-api-client-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

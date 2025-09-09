@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="itu-1.7.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/ethlo/time/itu/1.7.0/itu-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

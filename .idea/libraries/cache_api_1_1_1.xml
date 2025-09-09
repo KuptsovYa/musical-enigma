@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cache-api-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

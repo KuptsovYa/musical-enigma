@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="freemarker-2.3.32">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apache-mime4j-core-0.8.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/james/apache-mime4j-core/0.8.10/apache-mime4j-core-0.8.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

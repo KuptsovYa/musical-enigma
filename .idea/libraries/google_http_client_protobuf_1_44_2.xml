@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-http-client-protobuf-1.44.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/http-client/google-http-client-protobuf/1.44.2/google-http-client-protobuf-1.44.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

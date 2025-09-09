@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsoup-1.15.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle343/version0.0/nexus-repository-pypi-3.77.2-02.jar-embedded/jsoup-1.15.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

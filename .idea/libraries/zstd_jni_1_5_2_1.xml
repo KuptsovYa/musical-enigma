@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zstd-jni-1.5.2-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

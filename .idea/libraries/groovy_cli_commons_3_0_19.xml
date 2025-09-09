@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="groovy-cli-commons-3.0.19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/codehaus/groovy/groovy-cli-commons/3.0.19/groovy-cli-commons-3.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

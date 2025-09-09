@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="redline-1.2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/redline-rpm/redline/1.2.5/redline-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

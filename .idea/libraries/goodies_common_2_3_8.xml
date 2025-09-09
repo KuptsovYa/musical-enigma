@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="goodies-common-2.3.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/sonatype/goodies/goodies-common/2.3.8/goodies-common-2.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

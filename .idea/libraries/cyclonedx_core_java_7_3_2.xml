@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cyclonedx-core-java-7.3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/cyclonedx/cyclonedx-core-java/7.3.2/cyclonedx-core-java-7.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

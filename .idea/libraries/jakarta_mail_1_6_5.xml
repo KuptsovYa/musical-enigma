@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jakarta.mail-1.6.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pax-url-aether-2.6.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/ops4j/pax/url/pax-url-aether/2.6.12/pax-url-aether-2.6.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

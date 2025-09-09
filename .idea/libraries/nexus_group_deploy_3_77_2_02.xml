@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nexus-group-deploy-3.77.2-02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/sonatype/nexus/plugins/nexus-group-deploy/3.77.2-02/nexus-group-deploy-3.77.2-02.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

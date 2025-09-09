@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.karaf.deployer.kar-4.3.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/karaf/deployer/org.apache.karaf.deployer.kar/4.3.9/org.apache.karaf.deployer.kar-4.3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

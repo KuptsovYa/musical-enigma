@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdom2-2.0.6.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

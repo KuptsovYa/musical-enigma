@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle208/version0.0/nexus-extdirect-3.77.2-02.jar-embedded/lib/gson-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle208/version0.0/nexus-extdirect-3.77.2-02.jar-embedded/lib/directjngine-2.2.10-01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

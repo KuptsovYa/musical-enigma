@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.felix.configadmin-1.9.26">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/felix/org.apache.felix.configadmin/1.9.26/org.apache.felix.configadmin-1.9.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

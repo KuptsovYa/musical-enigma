@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="postgresql-42.7.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

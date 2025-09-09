@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="i4jruntime">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/.install4j/i4jruntime.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

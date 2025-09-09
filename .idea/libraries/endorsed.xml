@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="endorsed">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/endorsed/org.apache.karaf.specs.java.xml-4.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/lib/endorsed/org.apache.karaf.specs.locator-4.3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

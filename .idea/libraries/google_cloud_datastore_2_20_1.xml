@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-cloud-datastore-2.20.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/cloud/google-cloud-datastore/2.20.1/google-cloud-datastore-2.20.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.felix.configurator-1.0.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/felix/org.apache.felix.configurator/1.0.16/org.apache.felix.configurator-1.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

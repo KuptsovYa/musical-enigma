@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ossindex-service-api-1.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/sonatype/ossindex/ossindex-service-api/1.3.0/ossindex-service-api-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

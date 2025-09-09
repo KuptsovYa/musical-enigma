@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="compress-lzf-1.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/ning/compress-lzf/1.1.2/compress-lzf-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

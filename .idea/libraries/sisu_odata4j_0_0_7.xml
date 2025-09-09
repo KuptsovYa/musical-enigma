@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sisu-odata4j-0.0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/sonatype/sisu/sisu-odata4j/0.0.7/sisu-odata4j-0.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

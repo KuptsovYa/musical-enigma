@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.felix.metatype-1.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/felix/org.apache.felix.metatype/1.2.2/org.apache.felix.metatype-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

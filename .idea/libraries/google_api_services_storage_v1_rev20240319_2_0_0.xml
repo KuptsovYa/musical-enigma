@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-api-services-storage-v1-rev20240319-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/apis/google-api-services-storage/v1-rev20240319-2.0.0/google-api-services-storage-v1-rev20240319-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

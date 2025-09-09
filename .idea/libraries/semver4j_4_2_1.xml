@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="semver4j-4.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/semver4j/semver4j/4.2.1/semver4j-4.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

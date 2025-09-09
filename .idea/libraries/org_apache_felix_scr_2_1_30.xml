@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.felix.scr-2.1.30">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/felix/org.apache.felix.scr/2.1.30/org.apache.felix.scr-2.1.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="threetenbp-1.6.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/threeten/threetenbp/1.6.9/threetenbp-1.6.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

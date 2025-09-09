@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="nexus-common-pro-plugin-3.77.2-02.jar-embedded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle381/version0.0/nexus-common-pro-plugin-3.77.2-02.jar-embedded/aws-java-sdk-s3-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle381/version0.0/nexus-common-pro-plugin-3.77.2-02.jar-embedded/aws-java-sdk-core-1.12.658.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

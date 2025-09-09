@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="grpc-google-cloud-storage-v2-2.39.0-alpha">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/api/grpc/grpc-google-cloud-storage-v2/2.39.0-alpha/grpc-google-cloud-storage-v2-2.39.0-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

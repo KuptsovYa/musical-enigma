@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-jwt-3.16.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/auth0/java-jwt/3.16.0/java-jwt-3.16.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

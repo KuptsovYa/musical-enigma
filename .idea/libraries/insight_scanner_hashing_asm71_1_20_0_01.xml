@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="insight-scanner-hashing-asm71-1.20.0-01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/sonatype/insight/scan/insight-scanner-hashing-asm71/1.20.0-01/insight-scanner-hashing-asm71-1.20.0-01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

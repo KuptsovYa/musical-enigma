@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.aries.spifly.dynamic.framework.extension-1.3.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/aries/spifly/org.apache.aries.spifly.dynamic.framework.extension/1.3.7/org.apache.aries.spifly.dynamic.framework.extension-1.3.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

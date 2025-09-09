@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="guice-servlet-6.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/inject/extensions/guice-servlet/6.0.0/guice-servlet-6.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

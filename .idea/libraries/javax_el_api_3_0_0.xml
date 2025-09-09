@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.el-api-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

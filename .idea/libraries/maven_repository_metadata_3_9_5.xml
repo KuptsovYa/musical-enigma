@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-repository-metadata-3.9.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/maven/maven-repository-metadata/3.9.5/maven-repository-metadata-3.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

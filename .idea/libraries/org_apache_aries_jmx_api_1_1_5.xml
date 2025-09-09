@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.aries.jmx.api-1.1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/apache/aries/jmx/org.apache.aries.jmx.api/1.1.5/org.apache.aries.jmx.api-1.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

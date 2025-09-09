@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="protobuf-java-3.25.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

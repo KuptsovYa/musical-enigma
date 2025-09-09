@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="proto-google-common-protos-2.39.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/api/grpc/proto-google-common-protos/2.39.1/proto-google-common-protos-2.39.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

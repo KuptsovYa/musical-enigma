@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="nexus-blobstore-s3-3.77.2-02.jar-embedded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-cloudwatch-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/jmespath-java-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-cloudwatchmetrics-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-core-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-dynamodb-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-kms-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-sts-1.12.658.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sonatype-work/nexus3/cache/bundle258/version0.0/nexus-blobstore-s3-3.77.2-02.jar-embedded/aws-java-sdk-s3-1.12.658.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

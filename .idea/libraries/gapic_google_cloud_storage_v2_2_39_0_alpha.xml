@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gapic-google-cloud-storage-v2-2.39.0-alpha">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/google/api/grpc/gapic-google-cloud-storage-v2/2.39.0-alpha/gapic-google-cloud-storage-v2-2.39.0-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

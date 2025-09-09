@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="packageurl-java-1.4.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/com/github/package-url/packageurl-java/1.4.1/packageurl-java-1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

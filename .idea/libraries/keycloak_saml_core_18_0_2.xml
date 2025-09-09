@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="keycloak-saml-core-18.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/org/keycloak/keycloak-saml-core/18.0.2/keycloak-saml-core-18.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

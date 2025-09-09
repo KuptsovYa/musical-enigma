@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="metrics-healthchecks-4.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nexus-3.77.2-02/system/io/dropwizard/metrics/metrics-healthchecks/4.1.0/metrics-healthchecks-4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
