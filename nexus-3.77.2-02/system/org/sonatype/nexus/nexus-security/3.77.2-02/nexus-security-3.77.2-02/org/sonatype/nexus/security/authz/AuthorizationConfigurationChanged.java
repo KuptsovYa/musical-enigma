@@ -1,0 +1,8 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package org.sonatype.nexus.security.authz;
+
+public class AuthorizationConfigurationChanged {
+}
+
